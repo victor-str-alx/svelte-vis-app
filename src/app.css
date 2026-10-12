@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f0f12;
+  --card: #18181c;
+  --border: #2a2a32;
+  --accent: #22d3ee;
+  --accent-dim: #0891b2;
+  --text: #e4e4e7;
+  --muted: #71717a;
+}
+
+body {
+  @apply antialiased;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
